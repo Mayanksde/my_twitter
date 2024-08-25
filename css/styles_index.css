@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.left-section {
+    flex: 1;
+    background-color: #1DA1F2;
+    color: white;
+    padding: 30px;
+}
+
+.left-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.left-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.right-section img {
+    max-width: 100px;
+    margin-bottom: 20px;
+}
+
+.right-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#signupForm, #loginForm {
+    display: none;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #1DA1F2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
